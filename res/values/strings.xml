@@ -1,0 +1,143 @@
+<resources>
+
+    <string name="app_name">Dash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dash">Dash</string>
+    <string name="register">Register</string>
+    <string name="login">Log In</string>
+    <string name="test">test</string>
+    <string name="registerTitle">Sign up for Dash</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="submit">Submit</string>
+    <string name="loading_sign">Loading(…, 
+ 		%d feet&#8230;) ?</string>
+    <string name="no_username">Please input a username </string>
+    <string name="no_password">Input a password </string>
+    <string name="parse_login_fail">&quot;Parse username/password login failed, exception:&quot;</string>
+    <string name="login_fail_invalid_credentials">The username and password you enterred don\'t match</string>
+    <string name="login_fail_unknown">Could not log in. Please try again</string>
+    <string name="login_layout_warning_layout_missing_username">Layout missing username field</string>
+    <string name="login_layout_warning_layout_missing_password">Layout missing password field</string>
+    <string name="login_layout_warning_layout_missing_loginbutton">Layout missing login button</string>
+    <string name="login_warning_disabled_username_password_login">Disabled username and password signup due to error</string>
+    <string name="login_dispatch_user_logged_in">&quot;User logged in, starting&quot;</string>
+    <string name="login_dispatch_user_not_logged_in">User not logged in, starting ParseLoginActivity</string>
+    <string name="no_email">Please enter your email</string>
+    <string name="help_email_sent">Check your email for help</string>
+    <string name="login_help_login_again">Click to go back to the login</string>
+    <string name="password_reset_fail">&quot;Password reset failed: exception&quot;</string>
+    <string name="invalid_email">Invalid email, please correct and try again</string>
+    <string name="signup_failed_unknown">Could not sign up, please try again later</string>
+    <string name="reenter_password">Re-enter your password</string>
+    <string name="mismatch_confirm">Passwords don\'t match</string>
+    <string name="parse_signup_failure">&quot;Parse signup failed: exception &quot;</string>
+    <string name="username_taken">Username taken</string>
+    <string name="email_taken">Email taken</string>
+    <string name="unknown_signup_fail">Signup failed, try again later</string>
+    <string name="space"> </string>
+    <string name="period">.</string>
+    <string name="error_start">Error: </string>
+    <string name="item">Item:</string>
+    <string name="payment">Payment (Ex: 12.34):</string>
+    <string name="time">Time (minutes):</string>
+    <string name="item_cost">Item cost (Ex: 12.34):</string>
+    <string name="extra_info">Extra information:</string>
+    <string name="post_out_of_range">Post out of range</string>
+    <string name="search_distance">Search distance</string>
+    <string name="settings_distance_format">%d feet</string>
+    <string name="request">Request</string>
+    <string name="logout">Logout</string>
+    <string name="more_info">More Information</string>
+    <string name="my_requests">My Requests</string>
+    
+    <string name="select">Time</string>
+    
+	<string-array name="minutes_array">\
+	    <item>Time (minutes):</item>
+        <item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>37</item>
+		<item>38</item>
+		<item>39</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+		<item>53</item>
+		<item>54</item>
+		<item>55</item>
+		<item>56</item>
+		<item>57</item>
+		<item>58</item>
+		<item>59</item>
+		<item>60</item>
+    </string-array>
+	<string name="submit_a_request">Submit a Request!</string>
+	<string name="add_request">Add Request</string>
+	<string name="item_info">Item Information:</string>
+	<string name="address">Address:</string>
+	<string name="street_address_1">Address:</string>
+	<string name="street_address_2">Notes (Apartment, building, etc.):</string>
+	<string name="city">City:</string>	  
+	<string name="state">State/Province/Region:</string>  
+	<string name="zip">ZIP Code:</string>
+	<string-array name="drawer_choices">
+		<item>Dash Home</item><item >My Dashes</item>
+		<item >My Requests</item>
+		<item>Add Request</item><item>My Profile</item><item >Log Out</item>
+		
+		
+		
+	</string-array>
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+	<string name="action_websearch">Web search</string>
+	<string name="app_not_available">Sorry, there\'s no web browser available</string>
+	<string-array name="rating_array">
+		<item>Choose rating:</item><item >1</item>
+		<item >2</item>
+		<item >3</item>
+		<item >4</item>
+		<item >5</item>
+		
+	</string-array>
+	<string name="choose_rating">Please rate the completed dash (5 being the best)!</string>
+
+</resources>

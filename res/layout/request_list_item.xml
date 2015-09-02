@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+
+    <TextView
+        android:id="@+id/payment_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp" 
+        android:textSize="14sp"
+        android:padding="10sp"
+        android:layout_weight=".25"/>
+        <TextView
+        android:id="@+id/username_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="14sp"
+        android:padding="10sp"
+        android:layout_weight=".20"/>
+     <TextView
+        android:id="@+id/item_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="14sp"
+        android:padding="10sp"
+        android:layout_weight=".20"/>
+     <TextView
+        android:id="@+id/cost_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="14sp"
+        android:padding="10sp"
+        android:layout_weight=".20"/>
+     <TextView
+        android:id="@+id/time_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="14sp"
+        android:padding="10sp"
+        android:layout_weight=".15" />   
+  
+
+</LinearLayout>

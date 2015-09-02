@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/more_info_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:text="@string/more_info"
+        android:textColor="#7CD77A"   
+	    />       
+    
+    <TextView
+        android:id="@+id/request_more_info_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />	    
+    
+    <TextView
+        android:id="@+id/request_more_info_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+    <TextView
+        android:id="@+id/request_more_info_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+     <TextView
+        android:id="@+id/request_more_info_item_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+      <TextView
+        android:id="@+id/request_more_info_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+      <TextView
+        android:id="@+id/request_more_info_extra_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+    
+      <TextView
+        android:id="@+id/request_more_info_total_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />
+      
+      <TextView
+        android:id="@+id/request_more_info_address_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+       	android:padding="10sp"
+        />     
+               
+	  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+	    <Button
+	        android:id="@+id/request_more_info_dash"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal|center"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginBottom="20sp"
+	        android:text="@string/dash"
+	        android:textSize="24sp"       
+	        android:background="#7CD77A" 
+	        android:textColor="#fff"/> 
+	  </LinearLayout>          
+</LinearLayout>

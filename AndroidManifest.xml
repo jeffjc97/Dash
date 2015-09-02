@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.first.dash"
+    xmlns:bwq="http://schemas.android.com/apk/res-auto"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+	
+	<!-- Google maps requirements -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="com.first.dash.permission.READ_GSERVICES"/>
+ 	<permission
+ 	    android:name="com.first.dash.MAPS_RECEIVE"
+ 	    android:protectionLevel="signature"/>
+ 	<uses-permission android:name="com.first.dash.permission.MAPS_RECEIVE"/>
+     <uses-feature
+      android:glEsVersion="0x00020000"
+      android:required="true"/>
+     
+     <!-- Parse push notifications -->
+ 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+ 	<uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+ 	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<permission android:protectionLevel="signature"
+	    android:name="com.first.dash.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.first.dash.permission.C2D_MESSAGE" />
+	 	
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <uses-library
+            android:required="true"
+            android:name="com.google.android.maps" />
+        
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.BASEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        <activity
+            android:name=".MyRequests"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.MYREQUESTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.REGISTER" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.MENU" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".RequestMoreInfo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.REQUESTMOREINFO" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.LOGIN" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Asker"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.ASKER" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AskerHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.ASKERHOME" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DasherHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.DASHERHOME" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        <activity
+            android:name=".MapHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.MAPHOME" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RatingPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.RATINGPAGE" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.first.dash.PROFILE" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        
+        
+        <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+    	android:name="com.google.android.maps.v2.API_KEY"
+    	android:value="AIzaSyA6q-BKjHSEcUS29NSkWDVKHLN1Pb-lrZg"/>
+        
+        <!-- Push notifications -->
+		<service android:name="com.parse.PushService" />
+		<receiver android:name="com.parse.ParseBroadcastReceiver">
+		  <intent-filter>
+		    <action android:name="android.intent.action.BOOT_COMPLETED" />
+		    <action android:name="android.intent.action.USER_PRESENT" />
+		  </intent-filter>
+		</receiver>
+<!-- 		    android:name="com.parse.ParsePushBroadcastReceiver" -->		
+		<receiver 
+			android:name="com.first.dash.Receiver"
+		    android:exported="false">
+		  <intent-filter>
+		    <action android:name="com.parse.push.intent.RECEIVE" />
+		    <action android:name="com.parse.push.intent.DELETE" />
+		    <action android:name="com.parse.push.intent.OPEN" />
+		    </intent-filter>
+		</receiver>
+		<receiver android:name="com.parse.GcmBroadcastReceiver"
+		    android:permission="com.google.android.c2dm.permission.SEND">
+		  <intent-filter>
+		    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		 
+		    <!--
+		      IMPORTANT: Change "com.parse.starter" to match your app's package name.
+		    -->
+		    <category android:name="com.first.dash" />
+		  </intent-filter>
+		</receiver>
+
+    </application>
+    
+
+
+</manifest>
